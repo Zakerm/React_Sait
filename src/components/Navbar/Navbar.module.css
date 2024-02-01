@@ -1,0 +1,29 @@
+.nav
+{
+  grid-area: n;
+  background: red;
+  
+}
+
+.nav__item
+{
+  font-size: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.nav__item:last-child
+{
+  padding-top: 30px;
+}
+
+.nav__item__link
+{
+  text-decoration: none;
+  color: #e3e3e3;
+}
+
+.nav__item__link.active
+{
+  color: gold;
+}
